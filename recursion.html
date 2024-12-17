@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=8.0">
+        <link rel="stylesheet" href="mycss.css">
+        <title>My Extera Credit report</title>
+    
+    </head>
+    
+    <!-- add mocha css, to show results -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- add mocha framework code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd'); // minimal setup
+    </script>
+    <!-- add chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+    <script src="recursion.js">    </script>
+
+    <!-- the script with tests (describe, it...) -->
+    <script src="recursionTest.js"></script>
+</head>
+
+<body>
+    
+    <span>
+        
+        <center><img src="pass_guarantee_stamp.png"  width="120" height="120"></center>
+    </span>
+
+    <center><b>My javascript test result All passed</center> 
+    <hr>
+    <marquee><footer class="myfooter">This is sample of website site made by Getachew A. Akalu on my javascript code test and all passed successfully </p> </marquee>
+
+    <!-- the element with id="mocha" will contain test results -->
+    <div id="mocha"></div>
+
+    <!-- run tests! -->
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>

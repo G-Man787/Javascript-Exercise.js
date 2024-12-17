@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(24, 128, 114);
+    
+}  
+  div {
+    width: 600px;
+    padding: 15px;
+    margin: 200px;
+    background-color: rgb(128, 67, 97);
+  }
+ 
+  
+  h1, h2 {
+font-family:'Trebuchet Ms', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(0, 0, 0);
+text-align: center;
+  }
+
+  p, li {
+      color: rgb(0, 0, 0);
+  }
+
+  .myfooter {
+      color: rgb(27, 8, 8);
+  }
+
+  #main:first-letter {
+    float: center;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 10px;
+}
